@@ -8,7 +8,7 @@ class PauseOnce:
         print("Resuming from PauseOnce")
 
 
-async def temp():
+async def temp(): # Example coroutine function. This do not yield to the event loop
     return
     
 # Coroutine A
